@@ -39,7 +39,6 @@ public class Student {
 	 * constructor for a person with one name.
 	 * @param String primerNombre;
 	 * @param String segundoNombre;
-	 * @param String apellidoPaterno;
 	 * @param String apellidoMaterno; 
 	 */
 	
