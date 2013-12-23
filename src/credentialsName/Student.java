@@ -15,20 +15,42 @@ package credentialsName;
 
 public class Student {
 		
-	private String primerNombre;
-	private String segundoNombre;
-	private String apellidoPaterno;
-	private String apellidoMaterno;
+	private String pNombre;
+	private String sNombre;
+	private String pApellido;
+	private String sApellido;
 	
 	/**
-	 * constructor
+	 * constructor for a person with two names.
 	 * @param String primerNombre;
 	 * @param String segundoNombre;
 	 * @param String apellidoPaterno;
 	 * @param String apellidoMaterno; 
 	 */
 	
-	public Student()
+	public Student(String pNombre, String sNombre, String pApellido, String sApellido){
+		this.pNombre = pNombre;
+		this.sNombre = sNombre;
+		this.pApellido = pApellido;
+		this.sApellido = sApellido;
+	}
+	
+	/**
+	 * constructor for a person with one name.
+	 * @param String primerNombre;
+	 * @param String segundoNombre;
+	 * @param String apellidoPaterno;
+	 * @param String apellidoMaterno; 
+	 */
+	
+	public Student(String pNombre, String pApellido, String sApellido){
+		this.pNombre = pNombre;
+		this.sNombre = "";
+		this.pApellido = pApellido;
+		this.sApellido = sApellido;
+	}
+	
+	
 	
 
 }
