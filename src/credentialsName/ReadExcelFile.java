@@ -1,9 +1,11 @@
 /**
- * In this class I wan to read an .xlsx file and
+ * In this class I want to read an .xlsx file and
  * save the content on an list.
  * I use the structure of the code of the next web page
  * http://www.programacion.com/articulo/leer_un_fichero_excel_en_java_utilizando_poi_438
  * I'm only make a few changes to adapt to my work.
+ * For this proyect don't want read the cell with a numeric value, in another words,
+ * we only want the text of the book
  * @author antonio
  * @since December 22 2013
  * @version 1.0
@@ -50,7 +52,6 @@ public class ReadExcelFile {
 		try{
 			
 			FileInputStream stream = new FileInputStream(path); //Here we make an Stream to the file. 
-			//POIFSFileSystem streamFileSystem = new POIFSFileSystem(stream); //Here we make an File System of the file stream
 			//Now we going to make the instance that we can work by the book and the sheet of the file
 			XSSFWorkbook workBook = new XSSFWorkbook(stream); //This is the workbook
 			XSSFSheet sheet = workBook.getSheetAt(0);//This is the sheet of the file
@@ -63,18 +64,29 @@ public class ReadExcelFile {
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
 					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
-					lista.add(tmp);
+					if(!isNumber(tmp)){
+						lista.add(tmp);
+					}
 				}
 			}
 			
 		}catch(Exception e){
-			System.out.println("Caí en excepción");
 			e.printStackTrace();
 		}
 		
 		return lista;
 	}
 	
+	private boolean isNumber(String value){
+		
+		return true;
+	}
+	
+
+	/**
+	 * Return metod for get the list<String> of the .xlsx file
+	 * @return List<String>
+	 */
 	public List<String> getList(){
 		return listOfElements;
 	}
