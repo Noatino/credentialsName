@@ -16,13 +16,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.poi.hssf.usermodel.HSSFCell;
-import org.apache.poi.hssf.usermodel.HSSFRow;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcelFile {
 	
@@ -49,19 +48,20 @@ public class ReadExcelFile {
 		List<String> lista = new ArrayList<String>();
 		//We here going to try to read the file
 		try{
+			
 			FileInputStream stream = new FileInputStream(path); //Here we make an Stream to the file. 
-			POIFSFileSystem streamFileSystem = new POIFSFileSystem(stream); //Here we make an File System of the file stream
+			//POIFSFileSystem streamFileSystem = new POIFSFileSystem(stream); //Here we make an File System of the file stream
 			//Now we going to make the instance that we can work by the book and the sheet of the file
-			HSSFWorkbook workBook = new HSSFWorkbook(streamFileSystem); //This is the workbook
-			HSSFSheet sheet = workBook.getSheetAt(0);//This is the sheet of the file
+			XSSFWorkbook workBook = new XSSFWorkbook(stream); //This is the workbook
+			XSSFSheet sheet = workBook.getSheetAt(0);//This is the sheet of the file
 			//Now we going to iterate the rows or columns of the .xlsx file to find the information
 			//of the cell that we want
 			Iterator<Row> rowIterator = sheet.rowIterator();//We going start by the rows
 			while(rowIterator.hasNext()){
-				HSSFRow row = (HSSFRow) rowIterator.next();//The actual row
+				XSSFRow row = (XSSFRow) rowIterator.next();//The actual row
 				Iterator<Cell> cellIterator = row.cellIterator();//Now we stay in the cells of the row
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
-					HSSFCell cell = (HSSFCell) cellIterator.next();
+					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
 					lista.add(tmp);
 				}
