@@ -3,7 +3,7 @@
  * save the content on an list.
  * I use the structure of the code of the next web page
  * http://www.programacion.com/articulo/leer_un_fichero_excel_en_java_utilizando_poi_438
- * I'm only make a few changes to adapt to my work 
+ * I'm only make a few changes to adapt to my work.
  * @author antonio
  * @since December 22 2013
  * @version 1.0
@@ -12,14 +12,16 @@
 package credentialsName;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
 public class ReadExcelFile {
@@ -52,15 +54,22 @@ public class ReadExcelFile {
 			//Now we going to make the instance that we can work by the book and the sheet of the file
 			HSSFWorkbook workBook = new HSSFWorkbook(streamFileSystem); //This is the workbook
 			HSSFSheet sheet = workBook.getSheetAt(0);//This is the sheet of the file
-			//Now we going to iterate the rows and columns of the .xlsx file to find the information
+			//Now we going to iterate the rows or columns of the .xlsx file to find the information
 			//of the cell that we want
-			Iterator<Row> rowIterator = sheet.rowIterator();//First start by the rows
+			Iterator<Row> rowIterator = sheet.rowIterator();//We going start by the rows
 			while(rowIterator.hasNext()){
-				
+				HSSFRow row = (HSSFRow) rowIterator.next();//The actual row
+				Iterator<Cell> cellIterator = row.cellIterator();//Now we stay in the cells of the row
+				while(cellIterator.hasNext()){//Now we explore the cells of this row
+					HSSFCell cell = (HSSFCell) cellIterator.next();
+					String tmp = cell.toString();
+					lista.add(tmp);
+				}
 			}
 			
-		}catch(IOException e){
-			
+		}catch(Exception e){
+			System.out.println("Caí en excepción");
+			e.printStackTrace();
 		}
 		
 		return lista;
