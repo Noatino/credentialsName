@@ -24,8 +24,8 @@ It's advisable that you install the package complete and path the
 libraries.
 
 For the content on the excel file, I whis the contend stay like this
-
-number|name of an student [delimited by a * char]
+number|name of an student [delimited by a '*' char] like in the 
+.xlsx file in the src directory.
 
 But you can change all the lines of this proyect to adap from you needs, I try
 to comment all the methods to make more easy. But this is not necessarily true 
