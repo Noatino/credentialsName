@@ -12,6 +12,8 @@
 
 package credentialsName;
 
+import java.util.StringTokenizer;
+
 
 public class Student {
 		
@@ -28,6 +30,17 @@ public class Student {
 	
 	public Student(){
 		
+	}
+	
+	
+	/**
+	 * Constructor used by the way of the read of an
+	 * .xlsx file using XSSF-POI in the class ReadExcel 
+	 * of this package 
+	 */
+	
+	public Student(String token, String group){
+		makeStudent(token, group);
 	}
 	
 	/**
@@ -155,6 +168,70 @@ public class Student {
 	public String getGrupo(){
 		return group;
 	}
+	
+	/**
+	 * This method make an student that previously has been extracted by the buffer  
+	 * string of an xlsx file.
+	 * @param String buffer 
+	 * @param String group
+	 */
+	
+	private void makeStudent(String buffer, String group){
+		StringTokenizer token = new StringTokenizer(buffer.trim());
+		int flag = 1;
+		if(determinate(buffer) == 1){//In this case, he have two names
+			while(token.hasMoreElements()){
+				if(flag == 4){
+					setPNombre(token.nextToken("*"));
+				}
+				if(flag == 3){
+					setSNombre(token.nextToken("*"));
+				}
+				if(flag == 2){
+					setPApellido(token.nextToken("*"));
+				}
+				if(flag == 1){
+					setSApellido(token.nextToken("*"));
+				}
+				flag++;
+			}
+		}else{
+			//In this case, the student have only one name
+			while(token.hasMoreElements()){
+				if(flag == 3){
+					setPNombre(token.nextToken("*"));
+				}
+				if(flag == 2){
+					setPApellido(token.nextToken("*"));
+				}
+				if(flag == 1){
+					setSApellido(token.nextToken("*"));
+				}
+				flag++;
+			}
+		}
+		
+	}
+	
+	/**
+	 * Determinate if an student have two names or only one. The string in the .xlsx file
+	 * have * instead of whites. We now count the repeats of *. If the studen have two names
+	 * then we have 3 * in the string, this is 1 module 2, in other case, the student have only
+	 * one name, then his name only have 2 * this is 0 module 2
+	 * @param String
+	 * @return int 
+	 */
+	
+	private int determinate(String name){
+		int count = 0;
+		for(int i = 0; i < name.length(); i++){
+			if(name.charAt(i)=='*'){
+				count++;
+			}
+		}
+		return count%2;
+	}
+	
 	
 	/**
 	 * Method to String about an student

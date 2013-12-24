@@ -27,7 +27,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcelFile {
 	
-	private List<String> listOfElements;
+	private List<Student> listOfElements;
 
 	/**
 	 * Constructor of the class. The parameter of the constructor
@@ -43,11 +43,11 @@ public class ReadExcelFile {
 	 * This method is the responsible of read the content of the .xlsx 
 	 * file.
 	 * @param path
-	 * @return List<String>
+	 * @return List<Student>
 	 */
 	
-	private List<String> readExcelFile(String path){
-		List<String> lista = new ArrayList<String>();
+	private List<Student> readExcelFile(String path){
+		List<Student> lista = new ArrayList<Student>();
 		//We here going to try to read the file
 		try{
 			
@@ -64,9 +64,7 @@ public class ReadExcelFile {
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
 					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
-					if(!isNumber(tmp)){
-						lista.add(tmp);
-					}
+					lista.add(new Student(tmp, "edna"));
 				}
 			}
 			
@@ -77,17 +75,13 @@ public class ReadExcelFile {
 		return lista;
 	}
 	
-	private boolean isNumber(String value){
 		
-		return true;
-	}
-	
 
 	/**
-	 * Return metod for get the list<String> of the .xlsx file
-	 * @return List<String>
+	 * Return metod for get the List<Student> of the .xlsx file
+	 * @return List<Student>
 	 */
-	public List<String> getList(){
+	public List<Student> getList(){
 		return listOfElements;
 	}
 
