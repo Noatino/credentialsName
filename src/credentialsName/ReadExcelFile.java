@@ -58,13 +58,21 @@ public class ReadExcelFile {
 			//Now we going to iterate the rows or columns of the .xlsx file to find the information
 			//of the cell that we want
 			Iterator<Row> rowIterator = sheet.rowIterator();//We going start by the rows
+			String gruop = "edna";
+			String index = "";
 			while(rowIterator.hasNext()){
 				XSSFRow row = (XSSFRow) rowIterator.next();//The actual row
 				Iterator<Cell> cellIterator = row.cellIterator();//Now we stay in the cells of the row
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
 					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
-					lista.add(new Student(tmp, "edna","14"));
+					
+					if(isNumber(tmp)){
+						index = tmp;
+						break;
+					}else{
+						lista.add(new Student(tmp, gruop,index));
+					}
 				}
 			}
 			
@@ -84,5 +92,28 @@ public class ReadExcelFile {
 	public List<Student> getList(){
 		return listOfElements;
 	}
-
+	
+	/**
+	 * Determinate if an String are an positive integer or not
+	 * @param String string
+	 * @return boolean
+	 */
+	
+	private boolean isNumber(String str){
+		String modif = str.trim();
+		int pos = str.indexOf(".");
+		String tmp = modif;
+		if(pos>-1){
+			tmp = modif.substring(0, pos);
+		}
+		if(tmp.isEmpty() || tmp == ""){
+			return false;
+		}
+		for(int i = 0; i < tmp.length(); i++){
+			if (!Character.isDigit(tmp.charAt(i))) {
+	            return false;
+			}
+		}
+		return true;
+	}
 }
