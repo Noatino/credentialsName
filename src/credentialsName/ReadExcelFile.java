@@ -64,7 +64,7 @@ public class ReadExcelFile {
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
 					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
-					lista.add(new Student(tmp, "edna"));
+					lista.add(new Student(tmp, "edna","14"));
 				}
 			}
 			

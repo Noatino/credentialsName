@@ -17,12 +17,11 @@ import java.util.StringTokenizer;
 
 public class Student {
 		
-	private String pNombre;
-	private String sNombre;
+	private String nombre;
 	private String pApellido;
 	private String sApellido;
 	private String group;
-	
+	private String index;
 	
 	/**
 	 *Default constructor 
@@ -39,26 +38,10 @@ public class Student {
 	 * of this package 
 	 */
 	
-	public Student(String token, String group){
-		makeStudent(token, group);
+	public Student(String token, String group, String index){
+		makeStudent(token, group, index);
 	}
 	
-	/**
-	 * constructor for a person with two names.
-	 * @param String primerNombre
-	 * @param String segundoNombre
-	 * @param String apellidoPaterno
-	 * @param String apellidoMaterno
-	 * @param String group 
-	 */
-	
-	public Student(String pNombre, String sNombre, String pApellido, String sApellido, String group){
-		this.pNombre = pNombre;
-		this.sNombre = sNombre;
-		this.pApellido = pApellido;
-		this.sApellido = sApellido;
-		this.group = group;
-	}
 	
 	/**
 	 * constructor for a person with one name.
@@ -66,14 +49,15 @@ public class Student {
 	 * @param String segundoNombre
 	 * @param String apellidoMaterno
 	 * @param String group
+	 * @param String index
 	 */
 	
-	public Student(String pNombre, String pApellido, String sApellido, String group){
-		this.pNombre = pNombre;
-		this.sNombre = "";
+	public Student(String nombre, String pApellido, String sApellido, String group, String index){
+		this.nombre = nombre;
 		this.pApellido = pApellido;
 		this.sApellido = sApellido;
 		this.group = group;
+		this.index = index;
 	}
 	
 	/**
@@ -81,18 +65,10 @@ public class Student {
 	 * @param String pName 
 	 */
 	
-	public void setPNombre(String pName){
-		this.pNombre = pName;
+	public void setnombre(String nombre){
+		this.nombre = nombre;
 	}
-	
-	/**
-	 * Set the second name
-	 * @param String sName 
-	 */
-	
-	public void setSNombre(String sName){
-		this.sNombre = sName;
-	}
+
 	
 	/**
 	 * Set the first last name
@@ -122,26 +98,26 @@ public class Student {
 		this.group = group;
 	}
 	
+	/**
+	 * Set the index of the student of the school
+	 * @param String
+	 */
+	
+	public void setNum(String index){
+		this.index = index;
+	}
+	
 	
 	/**
 	 * Get the first name
 	 * @return String
 	 */
 	
-	public String getPNombre(){
-		return pNombre;
+	public String getnombre(){
+		return nombre;
 	}
 	
-	/**
-	 * Get the second name
-	 * @return String
-	 */
-	
-	public String getSNombre(){
-		return sNombre;
-	}
-
-	
+		
 	/**
 	 * Get the first name
 	 * @return String
@@ -174,75 +150,39 @@ public class Student {
 	 * string of an xlsx file.
 	 * @param String buffer 
 	 * @param String group
+	 * @param String index
 	 */
 	
-	private void makeStudent(String buffer, String group){
+	public String getNum(){
+		return index;
+	}
+	
+	private void makeStudent(String buffer, String group, String index){
 		StringTokenizer token = new StringTokenizer(buffer.trim());
 		int flag = 1;
-		if(determinate(buffer) == 1){//In this case, he have two names
-			while(token.hasMoreElements()){
-				if(flag == 4){
-					setPNombre(token.nextToken("*"));
-				}
-				if(flag == 3){
-					setSNombre(token.nextToken("*"));
-				}
-				if(flag == 2){
-					setPApellido(token.nextToken("*"));
-				}
-				if(flag == 1){
-					setSApellido(token.nextToken("*"));
-				}
-				flag++;
+		while(token.hasMoreElements()){
+			if(flag == 3){
+				setnombre(token.nextToken("*"));
 			}
-		}else{
-			//In this case, the student have only one name
-			while(token.hasMoreElements()){
-				if(flag == 3){
-					setPNombre(token.nextToken("*"));
-				}
-				if(flag == 2){
-					setPApellido(token.nextToken("*"));
-				}
-				if(flag == 1){
-					setSApellido(token.nextToken("*"));
-				}
-				flag++;
+			if(flag == 2){
+				setPApellido(token.nextToken("*"));
 			}
+			if(flag == 1){
+				setSApellido(token.nextToken("*"));
+			}
+			flag++;
 		}
+		this.group = group;
+		this.index = index;
 		
 	}
-	
-	/**
-	 * Determinate if an student have two names or only one. The string in the .xlsx file
-	 * have * instead of whites. We now count the repeats of *. If the studen have two names
-	 * then we have 3 * in the string, this is 1 module 2, in other case, the student have only
-	 * one name, then his name only have 2 * this is 0 module 2
-	 * @param String
-	 * @return int 
-	 */
-	
-	private int determinate(String name){
-		int count = 0;
-		for(int i = 0; i < name.length(); i++){
-			if(name.charAt(i)=='*'){
-				count++;
-			}
-		}
-		return count%2;
-	}
-	
-	
-	/**
-	 * Method to String about an student
-	 * @return String
-	 */
+
 
 	@Override
 	public String toString() {
-		return "Student [pNombre=" + pNombre + ", sNombre=" + sNombre
-				+ ", pApellido=" + pApellido + ", sApellido=" + sApellido
-				+ ", group=" + group + "]";
+		return "Student [nombre=" + nombre + ", pApellido=" + pApellido
+				+ ", sApellido=" + sApellido + ", group=" + group + ", index="
+				+ index + "]";
 	}
 	
 }
