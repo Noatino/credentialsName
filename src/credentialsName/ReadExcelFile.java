@@ -58,7 +58,7 @@ public class ReadExcelFile {
 			//Now we going to iterate the rows or columns of the .xlsx file to find the information
 			//of the cell that we want
 			Iterator<Row> rowIterator = sheet.rowIterator();//We going start by the rows
-			String gruop = "edna";
+			String gruop = "";
 			String index = "";
 			while(rowIterator.hasNext()){
 				XSSFRow row = (XSSFRow) rowIterator.next();//The actual row
@@ -66,12 +66,15 @@ public class ReadExcelFile {
 				while(cellIterator.hasNext()){//Now we explore the cells of this row
 					XSSFCell cell = (XSSFCell) cellIterator.next();
 					String tmp = cell.toString();
-					
+					if(tmp.charAt(1) == '-'){
+						gruop = tmp.trim();
+					}
 					if(isNumber(tmp)){
-						index = tmp;
-						break;
+						index = tmp.trim();
+						int p = index.indexOf(".");
+						index = index.substring(0, p);//Here we obtain the serial number of the guy
 					}else{
-						lista.add(new Student(tmp, gruop,index));
+						lista.add(new Student(tmp.trim(), gruop,index));
 					}
 				}
 			}
