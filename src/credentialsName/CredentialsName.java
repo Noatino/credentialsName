@@ -11,11 +11,17 @@ public class CredentialsName {
 
 	public static void main(String[] args) {
 		try{
+			
+			ReadTxt text = new ReadTxt("/home/antonio/workspace/credentialsName/src/credentialsName/"
+					+ "REPIAE1.TXT");
+			System.out.print("termine");
+			/*
 			ReadExcelFile elementos = new ReadExcelFile("/home/antonio/workspace/credentialsName/src/credentialsName/"
 					+ "listas.xlsx");
 			for(int i = 0; i < elementos.getList().size(); i++){
 				System.out.println(elementos.getList().get(i));
 			}
+			*/
 		}catch(Exception e){
 			System.out.println("En el main");
 			e.printStackTrace();
