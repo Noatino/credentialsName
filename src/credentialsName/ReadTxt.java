@@ -43,14 +43,15 @@ public class ReadTxt {
 	
 	private List<Student> readFile(String path) throws IOException{
 		try{
-			System.out.println("Entre");//Borrar
 			File file = new File(path);
 			BufferedReader buffer = new BufferedReader(new FileReader(file));
-			//List<Student> lista = new ArrayList<Student>();
-			String tmp = buffer.readLine();
-			while(tmp != null){
-				System.out.println("Entre While");//Borrar
-				System.out.print(tmp);
+			String line = buffer.readLine(); //Actual line from the file
+			String tmp;
+			while(line != null){
+
+				//tmp = line.substring(18, 67);
+				System.out.println(line);//Borrar
+				line = buffer.readLine();//Actual line from the file
 			}
 			buffer.close();
 		}catch(NullPointerException e){ //Exception of File
