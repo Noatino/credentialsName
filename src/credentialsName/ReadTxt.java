@@ -48,9 +48,12 @@ public class ReadTxt {
 			String line = buffer.readLine(); //Actual line from the file
 			String tmp;
 			while(line != null){
-
-				//tmp = line.substring(18, 67);
-				System.out.println(line);//Borrar
+				if(line.length()<5){
+					System.out.println(line);//Borrar	
+				}else{
+					tmp = line.substring(18, 67);
+					System.out.println(tmp);//Borrar				
+				}
 				line = buffer.readLine();//Actual line from the file
 			}
 			buffer.close();
