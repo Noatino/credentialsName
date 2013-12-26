@@ -1,22 +1,5 @@
+1-A
 
- 
-                                      SISTEMA EDUCATIVO NACIONAL                                         HOJA  1 DE  1       I A E
-           INSCRIPCION Y ACREDITACION ESCOLAR PARA 1ø GRADO DE EDUCACION PRIMARIA(ESTADOS)           
-
-                                             SECRETARIA DE EDUCACION                          MEXICO         HOJA:      1
-
- ESCUELA                                           DOMICILIO                                                             CLAVE CCT
- LIC. ISIDRO FABELA                                ABEDULES S/N, FRACCIONAMIENTO LA FLORES, LOS REYES ACAQUILPAN        15EPR0378I
- SERVICIOS REGIONALES                              MUNICIPIO                                SUBDIR ZONA GRA GRU TUR    P. ESCOLAR
- SUBDIR. REG. 09     ZONA P185                     LA PAZ                                     09   P185  1   A          2013-2014
-
- 3.08.26/10/07                                                                                            2 09 P185 15EPR0378I A
-
-*******************************************************************************************************************
- CLAVE UNICA DE              NOMBRE DEL ALUMNO                     S R FECHA E  M  E  F  E  E PROM S R C CVE
-  REGISTRO DE                                                      E E NACIM S  A  N  C  F  A GRAL I E A DIS
-   POBLACION       PRIMER APELLIDO*SEGUNDO APELLIDO*NOMBRE(S)      X P       P  T  S  E       ANUALT S B    
-*******************************************************************************************************************
 AORA071023HDFCDRA4 ACOSTA*RODRIGUEZ*ARTURO ISAI*                   H  071023                   0.0  NP             DATOS ESTADISTICOS
 AUMA071217HMCGNNA0 AGUIRRE*MENDEZ*ANGEL ABISAI*                    H  071217                   0.0  NP             AL INICIO DEL     
 BAFG071103HMCLRRA8 BALDERAS*FRANCISCO*GERARDO*                     H  071103                   0.0  NP             PERIODO ESCOLAR   
@@ -52,37 +35,8 @@ TOGK070313MMCRZRA8 TORRES*GUZMAN*KAREN*                            M  070313    
 VAAP070803HMCZNTA4 VAZQUEZ*DE ANDA*PATRICIO GABRIEL*               H  070803                   0.0  NP      
 ZAHD070416MMCPRNA3 ZAPATERO*HERNANDEZ*DIANA BETSABE*               M  070416                   0.0  NP      
  
- 
- 
- 
- 
- 
- 
-  N P E=NACIONALES PROCEDENTES DE ESTADOS UNIDOS, CDT=CON DOCUMENTO DE TRANSFERENCIA, SDT=SIN DOCUMENTO DE TRANSFERENCIA
-  N P O P= NACIONALES PROCEDENTES DE OTROS PAISES, A D E= ALUMNOS QUE SE DIRIGEN A ESTADOS UNIDOS                               1
- 
- 
- 
- 
- 
- 
-                                      SISTEMA EDUCATIVO NACIONAL                                         HOJA  1 DE  1       I A E
-           INSCRIPCION Y ACREDITACION ESCOLAR PARA 1ø GRADO DE EDUCACION PRIMARIA(ESTADOS)           
+1-B
 
-                                             SECRETARIA DE EDUCACION                          MEXICO         HOJA:      2
-
- ESCUELA                                           DOMICILIO                                                             CLAVE CCT
- LIC. ISIDRO FABELA                                ABEDULES S/N, FRACCIONAMIENTO LA FLORES, LOS REYES ACAQUILPAN        15EPR0378I
- SERVICIOS REGIONALES                              MUNICIPIO                                SUBDIR ZONA GRA GRU TUR    P. ESCOLAR
- SUBDIR. REG. 09     ZONA P185                     LA PAZ                                     09   P185  1   B          2013-2014
-
- 3.08.26/10/07                                                                                            2 09 P185 15EPR0378I B
-
-*******************************************************************************************************************
- CLAVE UNICA DE              NOMBRE DEL ALUMNO                     S R FECHA E  M  E  F  E  E PROM S R C CVE
-  REGISTRO DE                                                      E E NACIM S  A  N  C  F  A GRAL I E A DIS
-   POBLACION       PRIMER APELLIDO*SEGUNDO APELLIDO*NOMBRE(S)      X P       P  T  S  E       ANUALT S B    
-*******************************************************************************************************************
 AAON070927MPLDSNA8 ADAN*OSORIO*NANCY*                              M  070927                   0.0  NP             DATOS ESTADISTICOS
 AAPA070723MMCLRRA6 ALVARADO*PEREZ*ARACELI*                         M  070723                   0.0  NP             AL INICIO DEL     
 BAVS070224MMCLRHA6 BALDERAS*VERA*SHAKTI DILERY*                    M  070224                   0.0  NP             PERIODO ESCOLAR   
@@ -114,41 +68,9 @@ TEVJ070522HDFRRYA7 TREJO*VARGAS*JEYRO JALIL*                       H  070522    
 VARG071018HMCZMLA8 VAZQUEZ*RAMOS*GAEL*                             H  071018                   0.0  NP             EXTRANJER  0  0  0
 VERI070119HDFNMSA8 VENTURA*RAMOS*ISAAC JUDA*                       H  070119                   0.0  NP                 TOTAL  0  0  0
 VICD070705HMCCNLA1 VICTORIA*CONTRERAS*DILAN ANDREW*                H  070705                   0.0  NP      
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  N P E=NACIONALES PROCEDENTES DE ESTADOS UNIDOS, CDT=CON DOCUMENTO DE TRANSFERENCIA, SDT=SIN DOCUMENTO DE TRANSFERENCIA
-  N P O P= NACIONALES PROCEDENTES DE OTROS PAISES, A D E= ALUMNOS QUE SE DIRIGEN A ESTADOS UNIDOS                               2
- 
- 
- 
- 
- 
- 
-                                      SISTEMA EDUCATIVO NACIONAL                                         HOJA  1 DE  1       I A E
-           INSCRIPCION Y ACREDITACION ESCOLAR PARA 1ø GRADO DE EDUCACION PRIMARIA(ESTADOS)           
 
-                                             SECRETARIA DE EDUCACION                          MEXICO         HOJA:      3
+1-C
 
- ESCUELA                                           DOMICILIO                                                             CLAVE CCT
- LIC. ISIDRO FABELA                                ABEDULES S/N, FRACCIONAMIENTO LA FLORES, LOS REYES ACAQUILPAN        15EPR0378I
- SERVICIOS REGIONALES                              MUNICIPIO                                SUBDIR ZONA GRA GRU TUR    P. ESCOLAR
- SUBDIR. REG. 09     ZONA P185                     LA PAZ                                     09   P185  1   C          2013-2014
-
- 3.08.26/10/07                                                                                            2 09 P185 15EPR0378I C
-
-*******************************************************************************************************************
- CLAVE UNICA DE              NOMBRE DEL ALUMNO                     S R FECHA E  M  E  F  E  E PROM S R C CVE
-  REGISTRO DE                                                      E E NACIM S  A  N  C  F  A GRAL I E A DIS
-   POBLACION       PRIMER APELLIDO*SEGUNDO APELLIDO*NOMBRE(S)      X P       P  T  S  E       ANUALT S B    
-*******************************************************************************************************************
 AURA070723MMCGQZA2 AGUILAR*ROQUE*AZUL NICOLE*                      M  070723                   0.0  NP             DATOS ESTADISTICOS
 AAJA070504MMCNMNA0 ANAYA*JIMENEZ*ANGELES TONANTZIN*                M  070504                   0.0  NP             AL INICIO DEL     
 BASJ070704MMCSNTA0 BASTIDA*SANCHEZ*JATZIRY TRINIDAD*               M  070704                   0.0  NP             PERIODO ESCOLAR   
@@ -184,18 +106,4 @@ TEAJ070401HMCRVVA7 TREJO*AVALOS*JAVIER*                            H  070401    
 VAML070824MMCNLTA1 VANEGAS*MALVAEZ*LITZY ATZIRI*                   M  070824                   0.0  NP      
 VAGE070519HMCZNDA8 VAZQUEZ*GONZALEZ*EDWIN GAEL*                    H  070519                   0.0  NP      
 VERS070529HDFGMNA2 VEGA*RAMIREZ*SANTIAGO*                          H  070529                   0.0  NP      
- 
- 
- 
- 
- 
- 
-  N P E=NACIONALES PROCEDENTES DE ESTADOS UNIDOS, CDT=CON DOCUMENTO DE TRANSFERENCIA, SDT=SIN DOCUMENTO DE TRANSFERENCIA
-  N P O P= NACIONALES PROCEDENTES DE OTROS PAISES, A D E= ALUMNOS QUE SE DIRIGEN A ESTADOS UNIDOS                               3
- 
- 
- 
- 
- 
- 
- 
+
