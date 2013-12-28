@@ -47,22 +47,20 @@ public class ReadTxt {
 			File file = new File(path);
 			BufferedReader buffer = new BufferedReader(new FileReader(file));
 			line = buffer.readLine(); //Actual line from the file
-			String tmp;
 			while(line != null){
 				if(line.length()==0 || line == ""){
-					System.out.println("primer if");//Borrar
 					line = buffer.readLine();	
 					continue;
 				}else{
-					if(line.length()<5){
-						System.out.println("segundo if");//Borrar
-						System.out.print(line);//Borrar
-						System.out.println(line.length());
-					}else{	
-						//System.out.print(line);//Borrar
-						System.out.println("Segundo else");//Borrar
+					String tmp = line.trim();
+					if(tmp.length()<5){
+						if(tmp.length() != 0 && tmp.charAt(1) == '-'){
+							System.out.println(tmp);//delete
+							//Aca poner las lineas de grupo
+						}
+					}else{
 						tmp = line.substring(18, 67);
-						System.out.println(tmp);//Borrar
+						System.out.println(tmp);//delete
 					}
 					line = buffer.readLine();	
 				}	
