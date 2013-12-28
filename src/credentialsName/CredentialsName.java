@@ -23,7 +23,7 @@ public class CredentialsName {
 			}
 			*/
 		}catch(Exception e){
-			System.out.println("En el main");
+			System.out.println("Excepcion en tiempo de ejecucion");
 			e.printStackTrace();
 		}
 	

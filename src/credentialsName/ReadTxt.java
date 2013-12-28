@@ -42,20 +42,31 @@ public class ReadTxt {
 	 */
 	
 	private List<Student> readFile(String path) throws IOException{
+		String line = ""; //Borrar
 		try{
 			File file = new File(path);
 			BufferedReader buffer = new BufferedReader(new FileReader(file));
-			String line = buffer.readLine(); //Actual line from the file
+			line = buffer.readLine(); //Actual line from the file
 			String tmp;
 			while(line != null){
-				if(line.length()<5){
-					System.out.println(line);//Borrar	
+				if(line.length()==0 || line == ""){
+					System.out.println("primer if");//Borrar
+					line = buffer.readLine();	
+					continue;
 				}else{
-					tmp = line.substring(18, 67);
-					System.out.println(tmp);//Borrar				
-				}
-				line = buffer.readLine();//Actual line from the file
-			}
+					if(line.length()<5){
+						System.out.println("segundo if");//Borrar
+						System.out.print(line);//Borrar
+						System.out.println(line.length());
+					}else{	
+						//System.out.print(line);//Borrar
+						System.out.println("Segundo else");//Borrar
+						tmp = line.substring(18, 67);
+						System.out.println(tmp);//Borrar
+					}
+					line = buffer.readLine();	
+				}	
+			}		
 			buffer.close();
 		}catch(NullPointerException e){ //Exception of File
 			System.out.println("File not found");
@@ -64,6 +75,10 @@ public class ReadTxt {
 			System.out.println("File not found");
 			e.printStackTrace();
 
+		}catch(IndexOutOfBoundsException e){
+			System.out.println("Cai en Index Out Of Bounds Exception ");
+			System.out.println(line + " <- Esto es line");
+			e.printStackTrace();
 		}
 		
 		
