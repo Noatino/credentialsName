@@ -1,0 +1,113 @@
+
+
+1-A
+
+
+
+AORA071023HDFCDRA4 ACOSTA*RODRIGUEZ*ARTURO ISAI*                   H  071023                   0.0  NP             DATOS ESTADISTICOS
+AUMA071217HMCGNNA0 AGUIRRE*MENDEZ*ANGEL ABISAI*                    H  071217                   0.0  NP             AL INICIO DEL     
+BAFG071103HMCLRRA8 BALDERAS*FRANCISCO*GERARDO*                     H  071103                   0.0  NP             PERIODO ESCOLAR   
+BAAA070528MMCRYNA3 BARAJAS*AYALA*ANGELICA ITZEL*                   M  070528                   0.0  NP              CONCEPTO HO MU TO
+CAJJ070419HMCSMSA7 CASTRO*JIMENEZ*JESUS ZURIEL*                    H  070419                   0.0  NP             INSCRITOS 18 16 34
+CETR070805MMCRPNA7 CERON*TAPIA*RENATA SOPHIA*                      M  070805                   0.0  NP             REPETIDOR  0  0  0
+COHA070618HMCRRNA5 CORONA*HERNANDEZ*ANTONIO*                       H  070618                   0.0  NP                 TOTAL 18 16 34
+CULA070403HDFRPLA5 CRUZ*LOPEZ*ALEXANDER GABRIEL*                   H  070403                   0.0  NP      
+DIGA070204MMCZRNA2 DIAZ*GARCIA*ANA KAREN*                          M  070204                   0.0  NP      
+EAVD070322HMCSZGA0 ESPARZA*VAZQUEZ*DIEGO*                          H  070322                   0.0  NP      
+GAJG071029HMCRMRA0 GARCIA*JIMENEZ*GERARDO*                         H  071029                   0.0  NP      
+GAMC070710HMCRNRA4 GARCIA*MENDIOLA*CRISTOPHER ANTONIO*             H  070710                   0.0  NP             AL TERMINO DEL    
+GAAY070502HMCRRSA2 GRANADOS*ARELLANO*YOSEF ALEXANDER*              H  070502                   0.0  NP             PERIODO ESCOLAR   
+HEPA070918MMCRRNA5 HERNANDEZ*PEREZ*ANDREA SOPHIA*                  M  070918                   0.0  NP              CONCEPTO HO MU TO
+HIRJ070201HMCNMNA9 HINOJOSA*RAMIREZ*JONATHAN ARMANDO*              H  070201                   0.0  NP             DISCAPACI  0  0  0
+LINM070905MDFZRNA5 LIZARRAGA*NARVAEZ*MONICA LIZBETH*               M  070905                   0.0  NP                 ALTAS  0  0  0
+MAGC070609MMCCNLA3 MACIEL*GONZALEZ*CELESTE YUNUEN*                 M  070609                   0.0  NP                 BAJAS  0  0  0
+MACR070131HMCRRMA1 MARTINEZ*DE LA CRUZ*ROMA*                       H  070131                   0.0  NP      
+MARM071012HMCRMGA7 MARTINEZ*RAMOS*MIGUEL ALEJANDRO*                H  071012                   0.0  NP             PROMOVIDO  0  0  0
+MAVM070302MMCRZLA1 MARTINEZ*VAZQUEZ*MELANY GUADALUPE*              M  070302                   0.0  NP             NO PROMOV 18 16 34
+MEGO070813HMCNTSA5 MENDEZ*GUTIERREZ*OSCAR URIEL*                   H  070813                   0.0  NP                 TOTAL 18 16 34
+MOMF071220MMCRNTA3 MORALES*MENDEZ*FATIMA*                          M  071220                   0.0  NP      
+MORD071007MDFRMNA6 MORALES*ROMAN*DIANA ANDREA*                     M  071007                   0.0  NP             ALU DEL EXTRANJERO
+OIRG070206HMCSDLA7 OSTRIA*RODRIGUEZ*GUILLERMO*                     H  070206                   0.0  NP              CONCEPTO HO MU TO
+PAAN070105MMCDCLA2 PADILLA*ACEVEDO*NELLY YOSELIN*                  M  070105                   0.0  NP             N P E CDT  0  0  0
+PEMP070319MMCRCLA4 PEREZ*MACIAS*PAOLA RUBI*                        M  070319                   0.0  NP             N P E SDT  0  0  0
+RAGH070816MDFMRLA0 RAMIREZ*GARCIA*HELEM ZOE*                       M  070816                   0.0  NP             N P O P    0  0  0
+REVT070803MMCYZBA6 REYES*VAZQUEZ*TABATHA AMAIRANY*                 M  070803                   0.0  NP             A D E CDT  0  0  0
+ROSI070617HMCDBSA9 RODRIGUEZ*SEBASTIAN*ISAIAS*                     H  070617                   0.0  NP             EXTRANJER  0  0  0
+SIRA070811HMCLMLA8 SILVA*ROMERO*ALDO ARTURO*                       H  070811                   0.0  NP                 TOTAL  0  0  0
+TIGH071109MMCRMNA9 TIRADO*GOMEZ*HANNA DANAE*                       M  071109                   0.0  NP      
+TOGK070313MMCRZRA8 TORRES*GUZMAN*KAREN*                            M  070313                   0.0  NP      
+VAAP070803HMCZNTA4 VAZQUEZ*DE ANDA*PATRICIO GABRIEL*               H  070803                   0.0  NP      
+ZAHD070416MMCPRNA3 ZAPATERO*HERNANDEZ*DIANA BETSABE*               M  070416                   0.0  NP      
+ 
+1-B
+
+AAON070927MPLDSNA8 ADAN*OSORIO*NANCY*                              M  070927                   0.0  NP             DATOS ESTADISTICOS
+AAPA070723MMCLRRA6 ALVARADO*PEREZ*ARACELI*                         M  070723                   0.0  NP             AL INICIO DEL     
+BAVS070224MMCLRHA6 BALDERAS*VERA*SHAKTI DILERY*                    M  070224                   0.0  NP             PERIODO ESCOLAR   
+CAMV070224MMCSRLA1 CASIMIRO*MORAN*VALENTINA*                       M  070224                   0.0  NP              CONCEPTO HO MU TO
+CISM071003MMCSTRA3 CISNEROS*SOTELO*MARITZA*                        M  071003                   0.0  NP             INSCRITOS 17 14 31
+CORB070405HMCRDRA8 CORTEZ*RUEDA*BRYAN JOSUE*                       H  070405                   0.0  NP             REPETIDOR  0  0  0
+CIMK070315MMCRNRA9 CRISPIN*MENDOZA*KAREN RUBI*                     M  070315                   0.0  NP                 TOTAL 17 14 31
+DOOC070720HMCMRRA5 DOMINGUEZ*ORTIZ*CRISTOPHER BRAYAN*              H  070720                   0.0  NP      
+EEFO070820HDFNRMA6 ENEPITA*FIERROS*OMAR EMILIANO*                  H  070820                   0.0  NP      
+FEBC070519HMCRLRA9 FERNANDEZ*BALDERAS*CRISTOPHER IVAN*             H  070519                   0.0  NP      
+FOMA070409MMCRRBA0 FORTANEL*MARTINEZ*ABRIL*                        M  070409                   0.0  NP      
+HEAM070321MDFRLLA9 HERNANDEZ*ALVARADO*MELISSA JOAN*                M  070321                   0.0  NP             AL TERMINO DEL    
+HEVE070604HMCRLDA6 HERNANDEZ*VILLEGAS*EDDER*                       H  070604                   0.0  NP             PERIODO ESCOLAR   
+JIRG070516HDFMYRA3 JIMENEZ*REYES*GERARDO ISRAEL*                   H  070516                   0.0  NP              CONCEPTO HO MU TO
+LUFA070919MMCNLNA4 LUNA*FLORES*ANDREA GUADALUPE*                   M  070919                   0.0  NP             DISCAPACI  0  0  0
+MACE071017HDFRRDA8 MARTINEZ*CRUZ*EDUARDO DAVID*                    H  071017                   0.0  NP                 ALTAS  0  0  0
+MASL071023MMCRSSA0 MARTINEZ*SOSA*LESLIE ARIANA*                    M  071023                   0.0  NP                 BAJAS  0  0  0
+MEOJ070115HTLNRRA1 MENDEZ*ORTEGA*JORGE OZIEL*                      H  070115                   0.0  NP      
+MEHS070820MMCNRLA8 MENDOZA*HERNANDEZ*SOL SAYURI*                   M  070820                   0.0  NP             PROMOVIDO  0  0  0
+MOQZ070311MMCRRTA0 MORENO*QUIROZ*ZITZUHE ABRIL*                    M  070311                   0.0  NP             NO PROMOV 17 14 31
+NACG071129HMCVRBA2 NAVARRO*CORONA*GABRIEL*                         H  071129                   0.0  NP                 TOTAL 17 14 31
+PASA071101MMCNMXA8 PANTOJA*SAMPEDRO*AXIA FERNANDA*                 M  071101                   0.0  NP      
+RITA070129MMCVRNA4 RIVERA*TORRES*ANGELES AURORA*                   M  070129                   0.0  NP             ALU DEL EXTRANJERO
+ROGO070908HMCJRSA2 ROJAS*GARCIA*OSCAR*                             H  070908                   0.0  NP              CONCEPTO HO MU TO
+TODA070619HMCLLXA6 TOLENTINO*DELGADO*AXEL DONOVAN*                 H  070619                   0.0  NP             N P E CDT  0  0  0
+TOMC070702HMCRNRA9 TORAL*MENDOZA*CARLOS EITAN*                     H  070702                   0.0  NP             N P E SDT  0  0  0
+TOTC070111HMCRRRA6 TORRES*TORRES*CARLOS EDUARDO*                   H  070111                   0.0  NP             N P O P    0  0  0
+TEVJ070522HDFRRYA7 TREJO*VARGAS*JEYRO JALIL*                       H  070522                   0.0  NP             A D E CDT  0  0  0
+VARG071018HMCZMLA8 VAZQUEZ*RAMOS*GAEL*                             H  071018                   0.0  NP             EXTRANJER  0  0  0
+VERI070119HDFNMSA8 VENTURA*RAMOS*ISAAC JUDA*                       H  070119                   0.0  NP                 TOTAL  0  0  0
+VICD070705HMCCNLA1 VICTORIA*CONTRERAS*DILAN ANDREW*                H  070705                   0.0  NP      
+
+1-C
+
+AURA070723MMCGQZA2 AGUILAR*ROQUE*AZUL NICOLE*                      M  070723                   0.0  NP             DATOS ESTADISTICOS
+AAJA070504MMCNMNA0 ANAYA*JIMENEZ*ANGELES TONANTZIN*                M  070504                   0.0  NP             AL INICIO DEL     
+BASJ070704MMCSNTA0 BASTIDA*SANCHEZ*JATZIRY TRINIDAD*               M  070704                   0.0  NP             PERIODO ESCOLAR   
+BESA070321MMCNNNA9 BENAVIDES*SANCHEZ*ANGELA ITZEL*                 M  070321                   0.0  NP              CONCEPTO HO MU TO
+BOSB070109HDFBNRA7 BOBADILLA*SANTIAGO*BRANDON*                     H  070109                   0.0  NP             INSCRITOS 14 21 35
+CARF070923MDFHNTA0 CHAVEZ*RENTERIA*FATIMA VIRIDIANA*               M  070923                   0.0  NP             REPETIDOR  0  0  0
+COAT070807MDFRNYA3 CORTES*ANDRADE*TAYRA DENNIS*                    M  070807                   0.0  NP                 TOTAL 14 21 35
+CURJ070523MMCRDMA1 CRUZ*RODRIGUEZ*JIMENA ISMERAI*                  M  070523                   0.0  NP      
+DUOA070420MMCRRBA7 DURAN*ORTEGA*ABRIL AZUL*                        M  070420                   0.0  NP      
+FOAY070705MMCLNLA5 FLORES*ANGELES*YELENA*                          M  070705                   0.0  NP      
+GAPC070102HDFRRRA3 GARCIA*PEREZ*CARLOS FERNANDO*                   H  070102                   0.0  NP      
+GOBN070626MMCMCTA5 GOMEZ*BECERRIL*NATALIA*                         M  070626                   0.0  NP             AL TERMINO DEL    
+GOHL070519HMCNRNA5 GONZALEZ*HERNANDEZ*LEONARDO*                    H  070519                   0.0  NP             PERIODO ESCOLAR   
+GOPK070830HMCNNVA7 GONZALEZ*PINTOR*KEVIN ALEXANDER*                H  070830                   0.0  NP              CONCEPTO HO MU TO
+GUHG070924MMCZRDA4 GUZMAN*HERRERA*MARIA GUADALUPE*                 M  070924                   0.0  NP             DISCAPACI  0  0  0
+HEHS070107MMCRRMA4 HERNANDEZ*HERNANDEZ*SAMANTHA MONTSERRAT*        M  070107                   0.0  NP                 ALTAS  0  0  0
+HEMR070929HMCRLDA8 HERNANDEZ*MELENA*RODRIGO*                       H  070929                   0.0  NP                 BAJAS  0  0  0
+HELL070118MMCRPSA8 HERRERA*LOPEZ*LISBETH MONSERRAT*                M  070118                   0.0  NP      
+JULF070826HMCRMRA3 JUAREZ*LIMA*FERNANDO RUBEN*                     H  070826                   0.0  NP             PROMOVIDO  0  0  0
+LUML070108HMCNNNA6 LUNA*MONTES DE OCA*LEONARDO*                    H  070108                   0.0  NP             NO PROMOV 14 21 35
+MAGA070201HMCRRNA3 MARTINEZ*GARCIA*ANGEL GUADALUPE*                H  070201                   0.0  NP                 TOTAL 14 21 35
+MEZJ070719MMCDMSA4 MEDINA*ZAMUDIO*MARIA JOSE*                      M  070719                   0.0  NP      
+MEGN070117MMCNRLA8 MENDOZA*GARCIA*NELLY DANAE*                     M  070117                   0.0  NP             ALU DEL EXTRANJERO
+MEPI071003HBCNRRA4 MENDOZA*PEREGRINO*IRVING KALEB*                 H  071003                   0.0  NP              CONCEPTO HO MU TO
+MOMJ070203HMCTNSA1 MOTA*MENDEZ*JOSHEP MAXIMILIANO*                 H  070203 00 00 00 00 00 00 0.0  NP             N P E CDT  0  0  0
+OIEA070125MDFRVLA5 ORTIZ*EVARISTO*ALISSON NAHOMI*                  M  070125 00 00 00 00 00 00 0.0  NP             N P E SDT  0  0  0
+PERY070912MDFRZQA1 PEREZ*RUIZ*YAQUELIN*                            M  070912                   0.0  NP             N P O P    0  0  0
+RODK070211HDFDRVA1 RODRIGUEZ*DORANTES*KEVIN*                       H  070211                   0.0  NP             A D E CDT  0  0  0
+SARS071008MMCRZRA0 SARABIA*RUIZ*SARAHI*                            M  071008                   0.0  NP             EXTRANJER  0  0  0
+SIRJ070920MMCXYCA1 SIO*REYES*JOCELYN NICOLE*                       M  070920                   0.0  NP                 TOTAL  0  0  0
+SEMH070926MMCTJLA8 STEVENSON*MEJIA*HILLARY DENISSE*                M  070926                   0.0  NP      
+TEAJ070401HMCRVVA7 TREJO*AVALOS*JAVIER*                            H  070401                   0.0  NP      
+VAML070824MMCNLTA1 VANEGAS*MALVAEZ*LITZY ATZIRI*                   M  070824                   0.0  NP      
+VAGE070519HMCZNDA8 VAZQUEZ*GONZALEZ*EDWIN GAEL*                    H  070519                   0.0  NP      
+VERS070529HDFGMNA2 VEGA*RAMIREZ*SANTIAGO*                          H  070529                   0.0  NP      
+

@@ -47,6 +47,7 @@ public class ReadTxt {
 			File file = new File(path);
 			BufferedReader buffer = new BufferedReader(new FileReader(file));
 			line = buffer.readLine(); //Actual line from the file
+			String group; //In this string we will know the group of the student 
 			while(line != null){
 				if(line.length()==0 || line == ""){
 					line = buffer.readLine();	
@@ -55,12 +56,12 @@ public class ReadTxt {
 					String tmp = line.trim();
 					if(tmp.length()<5){
 						if(tmp.length() != 0 && tmp.charAt(1) == '-'){
-							System.out.println(tmp);//delete
-							//Aca poner las lineas de grupo
+							//Aca guardar el grupo
 						}
 					}else{
 						tmp = line.substring(18, 67);
 						System.out.println(tmp);//delete
+						//Aca crear el estudiante y agregarlo a la lista.
 					}
 					line = buffer.readLine();	
 				}	
